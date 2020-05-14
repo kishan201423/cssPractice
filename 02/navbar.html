@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAvBAr</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+       .side-menu
+        {
+            list-style: none;
+            border:1px black solid;
+            width: 400px;
+            padding:20px;
+        }
+        .side-menu li{
+            font-size: medium;
+            line-height: 2.4em;
+            border-bottom: #f3f3f3 dotted;
+            text-decoration: none;
+        }
+        .side-menu a
+        {
+            text-decoration: none;
+            color:darkblue;
+        }
+
+        .side-menu a:hover{
+            color:red;
+            font-size: 18px;
+        }
+        .main-nav{
+            list-style: none;
+            border:1px #f3f3f3 solid;
+            padding:0;
+            margin:0;
+            background-color: darkblue;
+            overflow: auto;
+
+        }
+        .main-nav li{
+            float: left;
+            padding: 20px;
+        }
+        .main-nav a
+        {
+            text-decoration: none;
+            color:whitesmoke;
+        }
+
+        .main-nav li a:hover{
+            background-color: lightblue;
+            color:lightcyan;
+        }
+        .side-menu li:last-child
+        {
+            border:none;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+    <ul class="main-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+    <ul class="side-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</body>
+</html>

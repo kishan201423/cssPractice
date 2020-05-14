@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector_Target</title>
+   <style>
+       div p{
+           background-color: blue;
+           color:whitesmoke;
+       }
+
+       div >p{
+           background-color: violet;
+       }
+       div + p{
+           background-color: teal;
+       }
+       a
+       {
+           background-color: tomato;
+       }
+       a[target='_blank'] {
+           background-color: yellowgreen;
+       }
+   </style>
+</head>
+<body>
+    <div>
+        <p>This is my page</p>
+        <ul>
+            <li>Item1</li>
+            <li><p>Item2</p></li>
+            <li>Item3</li>
+
+        </ul>
+    </div>
+    <p>Tis is my footer</p>
+    <a href="#">Page1</a>
+    <a href="#" target='_self'>Page2</a>
+    <a href="https://mail.cognizant.com/" target='_blank'>Google</a>
+</body>
+</html>
